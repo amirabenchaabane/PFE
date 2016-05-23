@@ -1,0 +1,15 @@
+Admin\AdminBundle\Entity\Post:
+    type: entity
+    table: null
+    repositoryClass: Admin\AdminBundle\Entity\PostRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
